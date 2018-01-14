@@ -1,0 +1,6 @@
+C:\Users\Elvin\Desktop\Proyectos\LinQProject\LinQProject\CapaNegocio\bin\Debug\CapaNegocio.dll.config
+C:\Users\Elvin\Desktop\Proyectos\LinQProject\LinQProject\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Elvin\Desktop\Proyectos\LinQProject\LinQProject\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Elvin\Desktop\Proyectos\LinQProject\LinQProject\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\Elvin\Desktop\Proyectos\LinQProject\LinQProject\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Elvin\Desktop\Proyectos\LinQProject\LinQProject\CapaNegocio\obj\Debug\CapaNegocio.pdb

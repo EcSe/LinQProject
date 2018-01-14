@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="VentLinQ">
+  <DataContextMoniker Name="/VentLinQDataContext" />
+  <nestedChildShapes>
+    <classShape Id="8d34234a-25e3-4412-bc69-e8d56e2e8807" absoluteBounds="3.5, 5.375, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/VentLinQDataContext/TBoleta" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f7794e62-f2b2-4eb8-8664-282a005fe2df" absoluteBounds="3.515, 5.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0faaa4d7-3f01-4a10-86fe-f79c03b23bdc" absoluteBounds="0.75, 1.25, 2, 1.3862939453125">
+      <DataClassMoniker Name="/VentLinQDataContext/TCategoria" />
+      <nestedChildShapes>
+        <elementListCompartment Id="434fb3ae-1126-45ad-ac6c-95a8df2707c0" absoluteBounds="0.765, 1.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0b764917-41b8-4b5b-8d33-a2ec12ad394f" absoluteBounds="0.75, 6.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/VentLinQDataContext/TCliente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="14796bb4-9166-4656-97b6-90a9c6942050" absoluteBounds="0.765, 6.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e7a0cef8-e880-4337-aa89-2351bcc525fa" absoluteBounds="6.25, 1.125, 2, 1.5785953776041664">
+      <DataClassMoniker Name="/VentLinQDataContext/TDetalle" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a8beeebc-e2ca-45a2-b133-cb82dc7453bf" absoluteBounds="6.265, 1.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c426d895-ac9d-45ac-bf60-c11957663999" absoluteBounds="3.5, 0.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/VentLinQDataContext/TProducto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1ea3ac3d-6aab-44f6-b888-e400fde1cc9b" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="edb53406-8a99-45fb-9e95-ea418dcd8b78" absoluteBounds="0.75, 4.375, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/VentLinQDataContext/TVendedor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="16bc5850-6ddc-4a7a-aaa8-940c9b42024d" absoluteBounds="0.765, 4.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.44931705603966 : 2.6362939453125); (1.44931705603966 : 2.8862939453125); (2.06500117938702 : 2.8862939453125); (2.06500117938702 : 2.6362939453125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VentLinQDataContext/TCategoria/TCategoria_TCategoria" />
+      <nodes>
+        <classShapeMoniker Id="0faaa4d7-3f01-4a10-86fe-f79c03b23bdc" />
+        <classShapeMoniker Id="0faaa4d7-3f01-4a10-86fe-f79c03b23bdc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 6.82294840494792); (3.5 : 6.82294840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/VentLinQDataContext/TCliente/TCliente_TBoleta" />
+      <nodes>
+        <classShapeMoniker Id="0b764917-41b8-4b5b-8d33-a2ec12ad394f" />
+        <classShapeMoniker Id="8d34234a-25e3-4412-bc69-e8d56e2e8807" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 6.26044840494792); (7.25 : 6.26044840494792); (7.25 : 2.70359537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/VentLinQDataContext/TBoleta/TBoleta_TDetalle" />
+      <nodes>
+        <classShapeMoniker Id="8d34234a-25e3-4412-bc69-e8d56e2e8807" />
+        <classShapeMoniker Id="e7a0cef8-e880-4337-aa89-2351bcc525fa" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 1.91429768880208); (6.25 : 1.91429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/VentLinQDataContext/TProducto/TProducto_TDetalle" />
+      <nodes>
+        <classShapeMoniker Id="c426d895-ac9d-45ac-bf60-c11957663999" />
+        <classShapeMoniker Id="e7a0cef8-e880-4337-aa89-2351bcc525fa" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.94314697265625); (3.5 : 1.94314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/VentLinQDataContext/TCategoria/TCategoria_TProducto" />
+      <nodes>
+        <classShapeMoniker Id="0faaa4d7-3f01-4a10-86fe-f79c03b23bdc" />
+        <classShapeMoniker Id="c426d895-ac9d-45ac-bf60-c11957663999" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 5.56814697265625); (3.5 : 5.56814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/VentLinQDataContext/TVendedor/TVendedor_TBoleta" />
+      <nodes>
+        <classShapeMoniker Id="edb53406-8a99-45fb-9e95-ea418dcd8b78" />
+        <classShapeMoniker Id="8d34234a-25e3-4412-bc69-e8d56e2e8807" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
